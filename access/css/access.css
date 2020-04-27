@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.box-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.box-flex .box-map {
+    width: 48%;
+}
+.box-flex p {
+    font-size: 0.8em;
+}
+.box-flex .map {
+    height: 200%;
+    margin-bottom: 1em;
+}

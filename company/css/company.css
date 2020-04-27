@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section {
+    margin-bottom: 7em;
+}
+.side-r {
+    height: 0px;
+    text-align: left;
+    -webkit-writing-mode: unset;
+    -ms-writing-mode: unset;
+    writing-mode: unset;
+}
+.side-r span {
+    border: 1px solid #707070;
+    opacity: 1;
+    transition: 0.5s;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 0.5em;
+}
+.side-r span.active {
+    background: #707070;
+}
+
+.side-r a:hover span {
+    border: 1px solid #006AB8;
+    background: #006AB8;
+}
+
+.side-r a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.side-r a.navsync-menu-highlight span {
+    background: #707070;
+    border: 1px solid #707070;
+    text-decoration: none;
+}
+
+#sec-profile table {
+    text-align: left;
+    margin: auto;
+}
+#sec-profile th {
+    font-weight: 500;
+    padding-right: 2em;
+}
+#sec-profile td {
+    padding: 0.5em 0 0.5em 2em;
+    border-left: 1px solid #cacaca;
+    border-bottom: 2em solid #fff;
+    border-top: 2em solid #fff;
+}
+#sec-profile button {
+    margin-top: 1em;
+}
+
+#sec-staff dl {
+    
+}
+#sec-staff dt {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+#sec-staff dd {
+    margin-bottom: 2.5rem;
+    font-size: 0.8em;
+}
+
+#sec-recruit button {
+    margin-bottom: 1.5em;
+}
